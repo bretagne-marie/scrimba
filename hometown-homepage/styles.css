@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #1D3557;
+}
+
+#hero-section {
+    background-image: url("./images/hagersten.jpg");
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    background-color: #81B29A;
+    padding: 5px 10px;
+    border-radius: 5px;
+    max-width: 450px;
+}
+
+#hero-subtitle {
+    margin: 5px 0;
+}
+
+#activities-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 35px 75px 65px 75px;
+    background-color: #E07A5F;
+}
+
+#activities {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 25px;
+}
+
+.single-activity {
+    padding: 10px;
+}
+
+.activity-img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 10px #000000;
+    margin-bottom: 10px;
+}
+
+#guide-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    background-color: #F4F1DE;
+    color: #1D3557;
+    text-shadow: none;
+}
+
+#guide-img {
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px #1D3557;
+}
+
+#guide-quote {
+    background-color: #F2CC8F;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 0 #1D3557;
+    display: flex;
+    align-items: center;
+}
+
+#guide-text {
+    width: 175px;
+    margin-left: 20px;
+}
+
+#footer-section {
+    background-color: #81B29A;
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#room-button {
+    padding: 8px 30px;
+    border-radius: 5px;
+    border: 2px solid #1D3557;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: #F4F1DE;
+}
+
+#room-button:hover {
+    background-color: #81B29A;
+    cursor: pointer;
+}
