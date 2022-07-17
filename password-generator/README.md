@@ -1,4 +1,4 @@
-#Password Generator Project
+# Password Generator Project
 
 This project helped me better understand looping to create logic that generates "randomness".
 
