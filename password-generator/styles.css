@@ -1,0 +1,70 @@
+body {
+    margin: 115px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color:#ECFDF5;
+    ;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+    size: 40px;
+    color: #2B283A;
+    width: 300px;
+    margin-bottom: 0;
+}
+
+#green-color {
+    color: #10B981;
+}
+
+h2 {
+    font-family: 'Inter', san-serif;
+    font-weight: 400;
+    size: 20px;
+    color: #6B7280;
+    padding-bottom: 30px;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #10B981;
+    height: 40px;
+    width: 215px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#line {
+ padding-top: 35px;
+}
+
+hr {
+    border: 1px solid #D5D4D8;
+    width: 455px;
+}
+
+#passwords {
+    display: flex;
+    padding: 35px 0px;
+}
+
+.pwd-boxes {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #5DEF92;
+    background-color: #273549;
+    border-radius: 5px;
+    height: 40px;
+    width: 215px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
