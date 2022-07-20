@@ -10,7 +10,7 @@ const length = 3.28084
 const volume = 3.78541
 const mass = 2.20462
 
-inputBtn.addEventListener("click" , function() {
+inputBtn.addEventListener("click", function() {
     calculateLength(inputEl.value)
     calculateVolume(inputEl.value)
     calculateMass(inputEl.value)
